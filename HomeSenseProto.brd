@@ -180,7 +180,7 @@ License: tapr.org/OHL</text>
 <hole x="34.5" y="3" drill="2.2"/>
 <hole x="9.5" y="41" drill="2.2"/>
 <text x="37" y="41.5" size="1.778" layer="22" font="vector" ratio="18" rot="MR0">HomeSense Proto</text>
-<text x="37" y="38.5" size="0.9" layer="22" font="vector" ratio="12" rot="MR0">www.superhouse.tv/hsproto</text>
+<text x="37" y="38.5" size="0.9" layer="22" font="vector" ratio="16" rot="MR0">www.superhouse.tv/hsproto</text>
 <wire x1="7.264" y1="38.95" x2="5.994" y2="36.664" width="0.3048" layer="21" curve="309.2564"/>
 <wire x1="7.264" y1="38.95" x2="5.486" y2="38.442" width="0.3048" layer="21" curve="-163.361194"/>
 <wire x1="5.486" y1="38.442" x2="5.994" y2="40.474" width="0.3048" layer="21"/>
@@ -207,8 +207,8 @@ License: tapr.org/OHL</text>
 <text x="4.064" y="14.605" size="1.27" layer="21" font="vector" ratio="14">TX</text>
 <text x="4.064" y="12.065" size="1.27" layer="21" font="vector" ratio="14">RX</text>
 <text x="4.064" y="9.525" size="1.27" layer="21" font="vector" ratio="14">3.3V</text>
-<text x="3.65" y="6.81" size="1.27" layer="21" font="vector" align="bottom-center">PROG</text>
-<text x="34" y="39.2" size="1.016" layer="21" font="vector" align="bottom-center">RST</text>
+<text x="3.65" y="6.81" size="1.27" layer="21" font="vector" ratio="16" align="bottom-center">PROG</text>
+<text x="34" y="39.2" size="1.016" layer="21" font="vector" ratio="16" align="bottom-center">RST</text>
 <text x="13" y="38" size="1.6764" layer="22" font="vector" ratio="16" rot="MR0" align="bottom-center">+</text>
 <text x="16" y="38" size="1.6764" layer="22" font="vector" ratio="16" rot="MR0" align="bottom-center">-</text>
 <text x="6.5" y="36.2" size="1.6764" layer="22" font="vector" ratio="16" rot="MR0" align="bottom-center">5-24Vdc</text>
@@ -247,7 +247,7 @@ License: tapr.org/OHL</text>
 <text x="29.337" y="16.764" size="1.778" layer="21" font="vector" ratio="18" align="bottom-center">+</text>
 <text x="31.369" y="19.05" size="1.016" layer="21" font="vector" ratio="18" align="bottom-center">SCL</text>
 <text x="34.671" y="19.05" size="1.016" layer="21" font="vector" ratio="18" align="bottom-center">SDA</text>
-<text x="36.957" y="16.764" size="1.778" layer="21" font="vector" ratio="18" align="bottom-center">G</text>
+<text x="36.957" y="16.764" size="1.524" layer="21" font="vector" ratio="18" align="bottom-center">G</text>
 <text x="13" y="38.5" size="1.778" layer="21" font="vector" ratio="18" align="bottom-center">+</text>
 <text x="16" y="38.5" size="1.778" layer="21" font="vector" ratio="18" align="bottom-center">-</text>
 <text x="20.13" y="38.3" size="1.4224" layer="21" font="vector" ratio="18">SuperHouse</text>
@@ -276,7 +276,7 @@ License: tapr.org/OHL</text>
 <wire x1="36.83" y1="18.796" x2="38.1" y2="17.526" width="0.254" layer="22" curve="-90"/>
 <wire x1="38.1" y1="17.526" x2="38.1" y2="15.24" width="0.254" layer="22"/>
 <wire x1="38.1" y1="15.24" x2="39.37" y2="13.97" width="0.254" layer="22" curve="90"/>
-<text x="36.6522" y="16.764" size="1.778" layer="22" font="vector" ratio="18" rot="MR0" align="bottom-center">G</text>
+<text x="36.6522" y="16.764" size="1.524" layer="22" font="vector" ratio="18" rot="MR0" align="bottom-center">G</text>
 <text x="34.3662" y="19.05" size="1.016" layer="22" font="vector" ratio="18" rot="MR0" align="bottom-center">SDA</text>
 <text x="31.0642" y="19.05" size="1.016" layer="22" font="vector" ratio="18" rot="MR0" align="bottom-center">SCL</text>
 <text x="29.0322" y="16.764" size="1.778" layer="22" font="vector" ratio="18" rot="MR0" align="bottom-center">+</text>
@@ -308,6 +308,28 @@ GPIO5: SCL</text>
 <text x="21.463" y="16.764" size="1.27" layer="22" font="vector" ratio="18" rot="MR0" align="bottom-center">12</text>
 <text x="28.92" y="27.842" size="1.016" layer="22" font="vector" ratio="14" rot="MR0">VCC: 3.3V</text>
 <text x="1.234" y="19.46" size="1.016" layer="21" font="vector" ratio="14">VCC: 3.3V</text>
+<wire x1="21.59" y1="13.97" x2="36.83" y2="13.97" width="0.254" layer="22"/>
+<wire x1="36.83" y1="13.97" x2="38.1" y2="15.24" width="0.254" layer="22" curve="90"/>
+<wire x1="20.32" y1="15.24" x2="21.59" y2="13.97" width="0.254" layer="22" curve="90"/>
+<wire x1="36.83" y1="13.97" x2="39.37" y2="13.97" width="0.254" layer="22"/>
+<wire x1="19.05" y1="13.97" x2="21.59" y2="13.97" width="0.254" layer="22"/>
+<wire x1="19.05" y1="13.97" x2="39.37" y2="13.97" width="0.254" layer="21"/>
+<wire x1="15.748" y1="30.48" x2="15.494" y2="30.226" width="0.254" layer="21" curve="90"/>
+<wire x1="15.494" y1="30.226" x2="15.494" y2="27.686" width="0.254" layer="21"/>
+<wire x1="15.494" y1="27.686" x2="15.748" y2="27.432" width="0.254" layer="21" curve="90"/>
+<wire x1="15.748" y1="27.432" x2="16.764" y2="27.432" width="0.254" layer="21"/>
+<wire x1="16.764" y1="27.432" x2="17.018" y2="27.686" width="0.254" layer="21" curve="90"/>
+<wire x1="17.018" y1="27.686" x2="17.018" y2="30.226" width="0.254" layer="21"/>
+<wire x1="17.018" y1="30.226" x2="16.764" y2="30.48" width="0.254" layer="21" curve="90"/>
+<wire x1="16.764" y1="30.48" x2="15.748" y2="30.48" width="0.254" layer="21"/>
+<wire x1="12.446" y1="18.542" x2="12.192" y2="18.288" width="0.254" layer="21" curve="90"/>
+<wire x1="12.192" y1="18.288" x2="12.192" y2="15.748" width="0.254" layer="21"/>
+<wire x1="12.192" y1="15.748" x2="12.446" y2="15.494" width="0.254" layer="21" curve="90"/>
+<wire x1="12.446" y1="15.494" x2="13.462" y2="15.494" width="0.254" layer="21"/>
+<wire x1="13.462" y1="15.494" x2="13.716" y2="15.748" width="0.254" layer="21" curve="90"/>
+<wire x1="13.716" y1="15.748" x2="13.716" y2="18.288" width="0.254" layer="21"/>
+<wire x1="13.716" y1="18.288" x2="13.462" y2="18.542" width="0.254" layer="21" curve="90"/>
+<wire x1="13.462" y1="18.542" x2="12.446" y2="18.542" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="freetronics-jon">
@@ -749,6 +771,8 @@ design rules under a new name.</description>
 <element name="LED3" library="freetronics-jon" package="LED-0603" value="GREEN" x="22" y="40.5" rot="MR0"/>
 <element name="R7" library="freetronics-jon" package="0603" value="1K" x="27.5" y="40.5" rot="MR180"/>
 <element name="JP4" library="freetronics-jon" package="1X03" value="" x="21.59" y="15.24"/>
+<element name="LED4" library="freetronics-jon" package="LED-0603" value="BLUE" x="16.256" y="28.956" rot="R270"/>
+<element name="R8" library="freetronics-jon" package="0603" value="4K7" x="16.51" y="32.004"/>
 </elements>
 <signals>
 <signal name="S$2">
@@ -804,6 +828,7 @@ design rules under a new name.</description>
 <contactref element="S2" pad="1"/>
 <contactref element="JP3" pad="4"/>
 <contactref element="LED3" pad="C"/>
+<contactref element="LED4" pad="C"/>
 </signal>
 <signal name="N$25">
 </signal>
@@ -948,9 +973,10 @@ design rules under a new name.</description>
 <wire x1="15" y1="16.238" x2="13" y2="16.238" width="0.3048" layer="1"/>
 <contactref element="JP2" pad="1"/>
 <contactref element="REG1" pad="3"/>
-<wire x1="13" y1="25.46" x2="15.46" y2="25.46" width="0.8128" layer="1"/>
-<wire x1="21" y1="31" x2="21" y2="36.5" width="0.8128" layer="1"/>
-<wire x1="15.46" y1="25.46" x2="21" y2="31" width="0.8128" layer="1"/>
+<wire x1="13" y1="25.46" x2="15.968" y2="25.46" width="0.8128" layer="1"/>
+<wire x1="21" y1="30.492" x2="21" y2="32.004" width="0.8128" layer="1"/>
+<wire x1="21" y1="32.004" x2="21" y2="36.5" width="0.8128" layer="1"/>
+<wire x1="15.968" y1="25.46" x2="21" y2="30.492" width="0.8128" layer="1"/>
 <wire x1="17" y1="39.238" x2="19" y2="39.238" width="0.3048" layer="1"/>
 <wire x1="19" y1="39.238" x2="21" y2="37.238" width="0.3048" layer="1"/>
 <wire x1="21" y1="37.238" x2="21" y2="36.5" width="0.254" layer="1"/>
@@ -984,6 +1010,8 @@ design rules under a new name.</description>
 <wire x1="27.432" y1="17.018" x2="19.78" y2="17.018" width="0.3048" layer="1"/>
 <wire x1="13.1" y1="22" x2="13.1" y2="25.36" width="0.8128" layer="1"/>
 <wire x1="13.1" y1="25.36" x2="13" y2="25.46" width="0.8128" layer="1"/>
+<contactref element="R8" pad="2"/>
+<wire x1="17.272" y1="32.004" x2="21" y2="32.004" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="LED1" pad="C"/>
@@ -1219,6 +1247,12 @@ design rules under a new name.</description>
 <wire x1="32.766" y1="30.226" x2="30.734" y2="30.226" width="0.3048" layer="1"/>
 <wire x1="27" y1="33.96" x2="27" y2="36.5" width="0.3048" layer="1"/>
 <wire x1="30.734" y1="30.226" x2="27" y2="33.96" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$65">
+<contactref element="R8" pad="1"/>
+<contactref element="LED4" pad="A"/>
+<wire x1="16.256" y1="29.718" x2="16.256" y2="31.496" width="0.254" layer="1"/>
+<wire x1="16.256" y1="31.496" x2="15.748" y2="32.004" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>
