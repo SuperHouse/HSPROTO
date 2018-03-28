@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1646,8 +1646,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="GPIO15" x="17.78" y="-7.62" length="middle" rot="R180"/>
 <pin name="GPIO2" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="GPIO0" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="GPIO5" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="GPIO4" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="GPIO5" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="GPIO4" x="17.78" y="0" length="middle" rot="R180"/>
 <pin name="RXD" x="17.78" y="5.08" length="middle" direction="in" rot="R180"/>
 <pin name="TXD" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
 </symbol>
@@ -1796,8 +1796,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <connect gate="G$1" pin="GPIO15" pad="10"/>
 <connect gate="G$1" pin="GPIO16" pad="4"/>
 <connect gate="G$1" pin="GPIO2" pad="11"/>
-<connect gate="G$1" pin="GPIO4" pad="14"/>
-<connect gate="G$1" pin="GPIO5" pad="13"/>
+<connect gate="G$1" pin="GPIO4" pad="13"/>
+<connect gate="G$1" pin="GPIO5" pad="14"/>
 <connect gate="G$1" pin="RXD" pad="15"/>
 <connect gate="G$1" pin="TXD" pad="16"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
@@ -1819,8 +1819,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <connect gate="G$1" pin="GPIO15" pad="10"/>
 <connect gate="G$1" pin="GPIO16" pad="4"/>
 <connect gate="G$1" pin="GPIO2" pad="11"/>
-<connect gate="G$1" pin="GPIO4" pad="14"/>
-<connect gate="G$1" pin="GPIO5" pad="13"/>
+<connect gate="G$1" pin="GPIO4" pad="13"/>
+<connect gate="G$1" pin="GPIO5" pad="14"/>
 <connect gate="G$1" pin="RXD" pad="15"/>
 <connect gate="G$1" pin="TXD" pad="16"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
@@ -2813,7 +2813,7 @@ We want bragging rights that we helped (in a very small part) to create your 8th
 <sheet>
 <plain>
 <text x="149.86" y="12.7" size="3.048" layer="94">HomeSense Prototyping Board</text>
-<text x="215.9" y="6.858" size="1.778" layer="94">V1.0 (2018-03-08)</text>
+<text x="215.9" y="6.858" size="1.778" layer="94">V1.1 (2018-03-28)</text>
 <text x="149.606" y="6.858" size="1.778" layer="94">www.superhouse.tv/hsproto</text>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
 <frame x1="147.32" y1="5.08" x2="243.84" y2="17.78" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
@@ -2838,10 +2838,10 @@ GPIO16: D0 Status LED</text>
 5-24Vdc</text>
 <text x="7.62" y="162.56" size="3.81" layer="97">+</text>
 <text x="7.62" y="157.48" size="3.81" layer="97">-</text>
-<text x="223.52" y="124.46" size="1.778" layer="97">3.3V</text>
-<text x="223.52" y="119.38" size="1.778" layer="97">SDA</text>
-<text x="223.52" y="121.92" size="1.778" layer="97">SCL</text>
-<text x="223.52" y="116.84" size="1.778" layer="97">GND</text>
+<text x="223.52" y="121.92" size="1.778" layer="97">3.3V</text>
+<text x="223.52" y="116.84" size="1.778" layer="97">SDA</text>
+<text x="223.52" y="119.38" size="1.778" layer="97">SCL</text>
+<text x="223.52" y="114.3" size="1.778" layer="97">GND</text>
 <text x="213.36" y="99.06" size="1.778" layer="97">Programming
 Header</text>
 <text x="213.36" y="129.54" size="1.778" layer="97">I2C Header</text>
@@ -2873,8 +2873,8 @@ drilling a hole through the case.</text>
 <text x="38.1" y="106.68" size="1.778" layer="97">GPIO14</text>
 <text x="38.1" y="111.76" size="1.778" layer="97">GPIO12</text>
 <text x="38.1" y="109.22" size="1.778" layer="97">GPIO13</text>
-<text x="160.02" y="116.84" size="1.778" layer="97">SCL</text>
-<text x="160.02" y="119.38" size="1.778" layer="97">SDA</text>
+<text x="160.02" y="119.38" size="1.778" layer="97">SCL</text>
+<text x="160.02" y="116.84" size="1.778" layer="97">SDA</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="111.76" y="116.84"/>
@@ -2888,7 +2888,7 @@ drilling a hole through the case.</text>
 <instance part="R4" gate="G$1" x="142.24" y="101.6" rot="R90"/>
 <instance part="GND5" gate="1" x="142.24" y="91.44"/>
 <instance part="C1" gate="G$1" x="50.8" y="142.24"/>
-<instance part="GND7" gate="1" x="208.28" y="111.76"/>
+<instance part="GND7" gate="1" x="208.28" y="109.22"/>
 <instance part="R5" gate="G$1" x="175.26" y="134.62" rot="R90"/>
 <instance part="R6" gate="G$1" x="182.88" y="134.62" rot="R90"/>
 <instance part="LED1" gate="G$1" x="134.62" y="157.48"/>
@@ -2903,7 +2903,7 @@ drilling a hole through the case.</text>
 <instance part="GND1" gate="1" x="208.28" y="81.28"/>
 <instance part="REG1" gate="G$1" x="40.64" y="162.56"/>
 <instance part="GND2" gate="1" x="116.84" y="132.08"/>
-<instance part="JP3" gate="G$1" x="215.9" y="121.92" rot="R180"/>
+<instance part="JP3" gate="G$1" x="215.9" y="119.38" rot="R180"/>
 <instance part="LED3" gate="G$1" x="22.86" y="101.6"/>
 <instance part="R7" gate="G$1" x="22.86" y="114.3" rot="R90"/>
 <instance part="JP4" gate="G$1" x="50.8" y="109.22" rot="MR180"/>
@@ -2977,9 +2977,9 @@ drilling a hole through the case.</text>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="4"/>
-<wire x1="210.82" y1="116.84" x2="208.28" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="114.3" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="208.28" y1="116.84" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="114.3" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -3055,29 +3055,27 @@ drilling a hole through the case.</text>
 <net name="GPIO4" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="GPIO4"/>
-<label x="147.32" y="119.38" size="1.778" layer="95"/>
-<wire x1="129.54" y1="119.38" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
+<label x="147.32" y="116.84" size="1.778" layer="95"/>
+<wire x1="129.54" y1="116.84" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="119.38" x2="210.82" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="129.54" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
-<junction x="175.26" y="119.38"/>
-<label x="187.96" y="119.38" size="1.778" layer="95"/>
+<wire x1="175.26" y1="116.84" x2="210.82" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="129.54" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
+<junction x="175.26" y="116.84"/>
+<label x="187.96" y="116.84" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="GPIO5" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="GPIO5"/>
-<label x="147.32" y="116.84" size="1.778" layer="95"/>
-<wire x1="129.54" y1="116.84" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
+<label x="147.32" y="119.38" size="1.778" layer="95"/>
+<wire x1="129.54" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="129.54" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
-<junction x="182.88" y="116.84"/>
-<wire x1="200.66" y1="116.84" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
-<label x="187.96" y="116.84" size="1.778" layer="95"/>
-<wire x1="200.66" y1="116.84" x2="200.66" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="129.54" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
+<junction x="182.88" y="119.38"/>
+<wire x1="210.82" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
+<label x="187.96" y="119.38" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="121.92" x2="210.82" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
@@ -3161,10 +3159,10 @@ drilling a hole through the case.</text>
 <junction x="142.24" y="162.56"/>
 <label x="73.66" y="106.68" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="93.98" x2="203.2" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="124.46" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="124.46" x2="203.2" y2="124.46" width="0.1524" layer="91"/>
-<junction x="203.2" y="124.46"/>
+<wire x1="203.2" y1="93.98" x2="203.2" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="121.92" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="121.92" x2="203.2" y2="121.92" width="0.1524" layer="91"/>
+<junction x="203.2" y="121.92"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="160.02" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
 <junction x="60.96" y="162.56"/>
