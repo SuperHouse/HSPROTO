@@ -10,6 +10,10 @@ for use in a home automation system. Includes:
  - Switchmode voltage regulator for wide input voltage range
  - Prototyping area with I/O breakout to add your own parts
 
+More information at
+
+  http://www.superhouse.tv/hsproto
+
 INSTALLATION
 ------------
 The design is saved as an EAGLE project. EAGLE PCB design software is
